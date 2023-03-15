@@ -24,7 +24,6 @@
 /* Begin PBXFileReference section */
 		B1292E9929B701AE00F1D917 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		B1292E9C29B7028600F1D917 /* ChatHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHandler.swift; sourceTree = "<group>"; };
-		B148EBBD29BDABC5008D7AEF /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		B148EBBE29BDAC25008D7AEF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B148EBC029BDACB2008D7AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B16AF91A29BC5D2100DCB0E3 /* ConvoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvoView.swift; sourceTree = "<group>"; };
@@ -88,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				B148EBC029BDACB2008D7AEF /* Info.plist */,
-				B148EBBD29BDABC5008D7AEF /* Config.xcconfig */,
 				B1292E9B29B7027600F1D917 /* CoreData */,
 				B1292E9829B701A100F1D917 /* Views */,
 				B18B435A29B4868300056D01 /* Network */,
@@ -217,7 +215,6 @@
 /* Begin XCBuildConfiguration section */
 		B18B435229B47E6400056D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B148EBBD29BDABC5008D7AEF /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -276,7 +273,6 @@
 		};
 		B18B435329B47E6400056D01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B148EBBD29BDABC5008D7AEF /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -328,7 +324,6 @@
 		};
 		B18B435529B47E6400056D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B148EBBD29BDABC5008D7AEF /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -368,7 +363,6 @@
 		};
 		B18B435629B47E6400056D01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B148EBBD29BDABC5008D7AEF /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
